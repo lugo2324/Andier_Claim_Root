@@ -1,5 +1,5 @@
 # Andier_Claim_Root
-Herramienta orientada a la seguridad de redes, con propósitos  de auditar las redes vulnerabilidades  a ataques BPDUs  y mala configuraciones.
+Herramienta orientada a la seguridad de redes, con propósitos  de auditar las redes vulnerabless a ataques BPDUs  y mala configuraciones de STP.
 
 EXPLICACIÓN COMPLETA DEL CÓDIGO
 STP (Spanning Tree Protocol) es un protocolo que previene loops en redes con switches. Los switches intercambian mensajes llamados BPDUs para elegir un "switch raíz" (root bridge).
