@@ -9,9 +9,15 @@ Enviar BPDUs falsos con prioridad más baja (valores más bajos = mayor priorida
 Hacer que tu máquina se convierta en el root bridge
 Esto te permite interceptar tráfico o causar problemas en la red.
 
+
+
+
 COMANDOS Y OPCIONES DISPONIBLES
+
 sudo apt-get update -y
+
 sudo apt-get install scapy -y
+
 sudo python3 stp.py -i <interfaz> [opciones]
 
 
