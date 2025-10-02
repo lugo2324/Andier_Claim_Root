@@ -123,3 +123,41 @@ Forward delay de 8 segundos
 
 Intervalo de 1 segundo con verbose
 
+
+
+
+TROUBLESHOOTING COMÚN
+
+
+
+Error: "Permission denied"
+
+
+ Solución: Ejecutar con sudo
+ 
+sudo python3 stp.py -i eth0 -p 0
+
+Error: "No such device eth0"
+
+
+ Ver interfaces disponibles
+ 
+ip link show
+ 
+ O
+
+ifconfig
+
+Luego usa la interfaz correcta
+
+sudo python3 stp.py -i ens33 -p 0
+
+El ataque no funciona:
+
+Verifica que estés en la VLAN correcta
+
+Asegúrate que STP esté habilitado en los switches
+
+Usa --show-packet para verificar el BPDU
+
+Prueba con -t 0.5 para ser más agresivo
