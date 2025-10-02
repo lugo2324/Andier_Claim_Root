@@ -1,9 +1,5 @@
 #!/usr/bin/env python3
-"""
-STP Claim Root Attack - Herramienta Educativa
-ADVERTENCIA: Solo para uso en entornos de laboratorio controlados
-Autor: Script mejorado para fines educativos
-"""
+#creado por Andier Aaquino
 
 from scapy.all import *
 from scapy.layers.l2 import Dot3, LLC, STP
@@ -161,7 +157,7 @@ class STPAttacker:
     def display_info(self):
         """Mostrar información del ataque"""
         print(f"\n{Colors.HEADER}{Colors.BOLD}═══════════════════════════════════════════════════════{Colors.END}")
-        print(f"{Colors.HEADER}{Colors.BOLD}       STP CLAIM ROOT ATTACK - MODO EDUCATIVO          {Colors.END}")
+        print(f"{Colors.HEADER}{Colors.BOLD}       STP CLAIM ROOT ATTACK          {Colors.END}")
         print(f"{Colors.HEADER}{Colors.BOLD}═══════════════════════════════════════════════════════{Colors.END}\n")
         
         print(f"{Colors.CYAN}[INFO] Configuración del Ataque:{Colors.END}")
@@ -333,4 +329,5 @@ ADVERTENCIA: Solo para uso educativo en entornos de laboratorio controlados.
 
 
 if __name__ == "__main__":
+
     main()
