@@ -10,7 +10,7 @@ Hacer que tu máquina se convierta en el root bridge
 Esto te permite interceptar tráfico o causar problemas en la red.
 
 COMANDOS Y OPCIONES DISPONIBLES
-sudo apt-grt update -y
+sudo apt-get update -y
 sudo apt-get install scapy -y
 sudo python3 stp.py -i <interfaz> [opciones]
 
